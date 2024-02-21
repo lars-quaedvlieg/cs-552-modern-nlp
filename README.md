@@ -19,10 +19,10 @@ Natural language processing is ubiquitous in modern intelligent technologies, se
 | Lectures           						| **Wednesdays: 11:15-13:00** [[STCC - Cloud C](https://plan.epfl.ch/?room=%3DSTCC%20-%20Cloud%20C&dim_floor=0&lang=en&dim_lang=en&tree_groups=centres_nevralgiques%2Cmobilite_acces_grp%2Censeignement%2Ccommerces_et_services&tree_group_layers_centres_nevralgiques=information_epfl%2Cguichet_etudiants&tree_group_layers_mobilite_acces_grp=metro&tree_group_layers_enseignement=&tree_group_layers_commerces_et_services=&baselayer_ref=grp_backgrounds&map_x=2532938&map_y=1152803&map_zoom=11)] & **Thursdays: 13:15-14:00** [[CE16](https://plan.epfl.ch/?room=%3DCE%201%206&dim_floor=1&lang=en&dim_lang=en&tree_groups=centres_nevralgiques%2Cmobilite_acces_grp%2Censeignement%2Ccommerces_et_services&tree_group_layers_centres_nevralgiques=information_epfl%2Cguichet_etudiants&tree_group_layers_mobilite_acces_grp=metro&tree_group_layers_enseignement=&tree_group_layers_commerces_et_services=&baselayer_ref=grp_backgrounds&map_x=2533400&map_y=1152502&map_zoom=13)]  |
 | Exercises Session  						| **Thursdays: 14:15-16:00** [[CE11](https://plan.epfl.ch/?room=%3DCE%201%201&dim_floor=1&lang=en&dim_lang=en&tree_groups=centres_nevralgiques%2Cmobilite_acces_grp%2Censeignement%2Ccommerces_et_services&tree_group_layers_centres_nevralgiques=information_epfl%2Cguichet_etudiants&tree_group_layers_mobilite_acces_grp=metro&tree_group_layers_enseignement=&tree_group_layers_commerces_et_services=&baselayer_ref=grp_backgrounds&map_x=2533297&map_y=1152521&map_zoom=13)] 																				   |
 | Project Assistance <br />(not every week) | **Wednesdays: 13:15-14:00** [[STCC - Cloud C](https://plan.epfl.ch/?room=%3DSTCC%20-%20Cloud%20C&dim_floor=0&lang=en&dim_lang=en&tree_groups=centres_nevralgiques%2Cmobilite_acces_grp%2Censeignement%2Ccommerces_et_services&tree_group_layers_centres_nevralgiques=information_epfl%2Cguichet_etudiants&tree_group_layers_mobilite_acces_grp=metro&tree_group_layers_enseignement=&tree_group_layers_commerces_et_services=&baselayer_ref=grp_backgrounds&map_x=2532938&map_y=1152803&map_zoom=11)] 													   						   |
-| Forum              						| Ed Forum [[link](https://edstem.org/eu/courses/379/discussion/)]                                       													   | 
-| Moodle             						| Annoucements [[link](https://moodle.epfl.ch/course/view.php?id=17143)]              																		   |
+| QA Forum & Annoucements       | Ed Forum [[link](https://edstem.org/eu/courses/1159/discussion/)]                                       													   | 
+| Grades             						| Moodle [[link](https://moodle.epfl.ch/course/view.php?id=17143)]              																		   |
 
-All lectures will be given in person and live streamed on Zoom. The link to the Zoom is available on the course Moodle page. Beware that, in the event of a technical failure during the lecture, continuing to accompany the lecture live via zoom might not be possible.
+All lectures will be given in person and live streamed on Zoom. The link to the Zoom is available on the Ed Forum (pinned post). Beware that, in the event of a technical failure during the lecture, continuing to accompany the lecture live via zoom might not be possible.
 
 Recording of the lectures will be made available on SwitchTube. We will reuse some of last year's recordings and we may record a few new lectures in case of different lecture contents.
 
@@ -31,7 +31,7 @@ Recording of the lectures will be made available on SwitchTube. We will reuse so
 
 | Week        | Date                 |  Topic                                                                                                                      |  Instructor                                |
 |:------------|:---------------------|:----------------------------------------------------------------------------------------------------------------------------|:------------------------------------------:|
-| **Week 1**  | 21 Feb <br />22 Feb  |  Introduction &#124; Building a simple neural classifier  <br />Neural LMs: word embeddings  |  Antoine Bosselut                   	    |
+| **Week 1**  | 21 Feb <br />22 Feb  |  Introduction &#124; Building a simple neural classifier  <br />Neural LMs: word embeddings [[slides][1s]]  |  Antoine Bosselut                   	    |
 |             |                      |                                                                                                                             |                                      	    |
 | **Week 2**  |  28 Feb <br />29 Feb   |  LM basics &#124; Neural LMs: Fixed Context Models <br />Neural LMs: RNNs, Backpropagation, Vanishing Gradients; LSTMs     |  Antoine Bosselut                   		|
 |             |                      |                                                                                                                             |                                      	    |
@@ -133,7 +133,7 @@ There will be three assignments throughout the course. They will be released and
 - Grade released: 19 May 2024
 - Grade review sessions: 29 and 30 May 2024
 
-Assignments will be released and announced on Moodle and Ed.
+Assignment releases will be announced on Ed.
 
 ### Project (60%):
 The project will be divided into 2 milestones and a final submission. Each milestone will be worth 15% of the final grade with the remaining 30% being allocated to the final report. Each team will be supervised by one of the course TAs or AEs. 
