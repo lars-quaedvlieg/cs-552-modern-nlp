@@ -31,9 +31,9 @@ Recording of the lectures will be made available on SwitchTube. We will reuse so
 
 | Week        | Date                 |  Topic                                                                                                                      |  Instructor                                |
 |:------------|:---------------------|:----------------------------------------------------------------------------------------------------------------------------|:------------------------------------------:|
-| **Week 1**  | 21 Feb <br />22 Feb  |  Introduction &#124; Building a simple neural classifier  <br />Neural LMs: word embeddings [[slides][1s]]  |  Antoine Bosselut                   	    |
+| **Week 1**  | 21 Feb <br />22 Feb  |  Introduction &#124; Building a simple neural classifier [[slides][1s]]  <br />Neural LMs: word embeddings [[slides][1s]]  |  Antoine Bosselut                   	    |
 |             |                      |                                                                                                                             |                                      	    |
-| **Week 2**  |  28 Feb <br />29 Feb   |  LM basics &#124; Neural LMs: Fixed Context Models <br />Neural LMs: RNNs, Backpropagation, Vanishing Gradients; LSTMs     |  Antoine Bosselut                   		|
+| **Week 2**  |  28 Feb <br />29 Feb   |  LM basics &#124; Neural LMs: Fixed Context Models [[slides][2s]]<br />Neural LMs: RNNs, Backpropagation, Vanishing Gradients; LSTMs     |  Antoine Bosselut                   		|
 |             |                      |                                                                                                                             |                                      	    |
 | **Week 3**  |  6 Mar <br />7 Mar   |  Seq2seq + decoding + attention &#124; Transformers<br />Transformers + Greedy Decoding; GPT |  Antoine Bosselut  		|
 |             |                      |                                                                                                                             |                                      	    |
@@ -69,33 +69,41 @@ Recording of the lectures will be made available on SwitchTube. We will reuse so
 |:------------|:--------|:--------------------------------------------------------------------------------------|:-------------------------------------------------------------------:|
 | **Week 1**  | 22 Feb  |  Setup + Word embeddings  [[code][1e]]                                                |  Mete Ismayilzada            |
 |             |         |                                                                                       |                                                                     |
-| **Week 2**  |  29 Feb  |  Word embeddings review <br /> Language and Sequence-to-sequence models  |  Mete Ismayilzada <br />Badr AlKhamissi  |
+| **Week 2**  |  29 Feb  |  Word embeddings review <br /> Language and Sequence-to-sequence models [[code][2e]] |  Mete Ismayilzada <br />Badr AlKhamissi  |
 |             |         |                                                                                       |                                                                     |
-| **Week 3**  |  7 Mar  | Language and Sequence-to-sequence models review <br /> Attention + Transformers <br /> Assignment 1 Q&A    |  Badr AlKhamissi <br />Simin Fan         |
+| **Week 3**  |  6 Mar  | Assignment 1 Q&A    | Mete Ismayilzada         |
+| **Week 3**  |  7 Mar  | Language and Sequence-to-sequence models review <br /> Attention + Transformers <br /> Assignment 1 Q&A    |  Badr AlKhamissi    |
 |             |         |                                                                                       |                                                                     |
-| **Week 4**  | 14 Mar  |  Attention + Transformers review <br />Pretraining and Transfer Learning Pt. 1 <br /> Assignment 1 Q&A  |  Simin Fan <br /> Badr AlKhamissi     |
+| **Week 4**  | 13 Mar  |  Assignment 1 Q&A   | Simin Fan     |
+| **Week 4**  | 14 Mar  |  Attention + Transformers review <br />Pretraining and Transfer Learning Pt. 1  |  Badr AlKhamissi  <br /> Simin Fan    |
 |             |         |                                                                                       |                                                                     |
-| **Week 5**  | 21 Mar  |  Pretraining and Transfer Learning Pt. 1 review <br />Transfer Learning Pt. 2 <br /> Assignment 2 Q&A        |  Simin Fan              |
+| **Week 5**  | 20 Mar  |  Assignment 2 Q&A        |  Simin Fan              |
+| **Week 5**  | 21 Mar  |  Pretraining and Transfer Learning Pt. 1 review <br />Transfer Learning Pt. 2        |  Simin Fan              |
 |             |         |                                                                                       |                                                                     |
-| **Week 6**  | 28 Mar  |  Transfer Learning Pt. 2 review <br />Text Generation <br /> Assignment 2 Q&A    |  Simin Fan <br />Deniz Bayazit           |
+| **Week 6**  | 28 Mar  |  Assignment 2 Q&A    |  Simin Fan    |
+| **Week 6**  | 28 Mar  |  Transfer Learning Pt. 2 review <br />Text Generation    |  Simin Fan <br />Deniz Bayazit           |
 |             |         |                                                                                       |                                                                     |
-| **Week 8**  | 4 Apr  |  ***EASTER BREAK***                                                                   |                                                                     |  
+|  |   |  ***EASTER BREAK***                                                                   |                                                                     |  
 |             |         |                                                                                       |                                                                     |
-| **Week 7**  |  11 Apr  |  Text Generation review <br />In-context Learning   <br /> Assignment 3 Q&A                   |  Badr AlKhamissi <br /> Deniz Bayazit <br /> Mete Ismayilzada  |
+| **Week 7**  |  10 Apr  |  Assignment 3 Q&A                   |  Badr AlKhamissi <br /> Deniz Bayazit  |
+| **Week 7**  |  11 Apr  |  Text Generation review <br />In-context Learning                  |  Deniz Bayazit <br /> Mete Ismayilzada  |
 |             |         |                                                                                       |                                                                     |
-| **Week 9**  | 18 Apr  |  In-context Learning review <br /> Assignment 3 Q&A                   |  Badr AlKhamissi <br /> Deniz Bayazit <br /> Mete Ismayilzada |
+| **Week 8**  | 17 Apr  | Assignment 3 Q&A                   |  Badr AlKhamissi <br /> Deniz Bayazit <br /> Mete Ismayilzada |
+| **Week 8**  | 18 Apr  |  In-context Learning review                  | Mete Ismayilzada |
 |             |         |                                                                                       |                                                                     |
-| **Week 10** | 25 Apr  |  Project                                                               |  TA meetings on-demand                              |
+| **Week 9** | 24 & 25 Apr  |  Project                                                               |  TA meetings on-demand                              |
 |             |         |                                                                                       |                                                                     |
-| **Week 11** |  2 May  |  Project                                                                             |  TA meetings on-demand                                              |
+| **Week 10** |  1 & 2 May  |  Project                                                                             |  TA meetings on-demand                                              |
 |             |         |                                                                                       |                                                                     |
-| **Week 12** | 9 May  |  Project  <br /> Milestone 1 Feedback                                                |  TA meetings on-demand                              |
+| **Week 11** | 8 & 9 May  |  Project  <br /> Milestone 1 Feedback                                                |  TA meetings on-demand                              |
 |             |         |                                                                                       |                                                                     |
-| **Week 13** | 16 May  |  Project                                                                              |  TA meetings on-demand                                              |
+| **Week 12** | 15 & 16 May  |  Project                                                                              |  TA meetings on-demand                                              |
 |             |         |                                                                                       |                                                                     |
-| **Week 14** | 23 May  |  Project                                                 |  TA meetings on-demand                          |
+| **Week 13** | 22 May  |  A3 Grade Review Session                                                 |  Badr AlKhamissi <br /> Deniz Bayazit                           |
 |             |         |                                                                                       |                                                                     |
-| **Week 15** | 30 May   |  Project <br /> Milestone 2 Feedback                                                                             |  TA meetings on-demand                                              |
+| **Week 13** | 23 May  |  Project                                                 |  TA meetings on-demand                          |
+|             |         |                                                                                       |                                                                     |
+| **Week 14** | 30 May   |  Project <br /> Milestone 2 Feedback                                                                             |  TA meetings on-demand                                              |
 
 
 ### Exercises Session format:
@@ -172,7 +180,7 @@ Please contact us for any organizational questions or questions related to the c
 
 
 [1s]:https://github.com/epfl-nlp/cs-552-modern-nlp/tree/main/Lectures/Week%201
-<!-- [2s]: -->
+[2s]:https://github.com/epfl-nlp/cs-552-modern-nlp/tree/main/Lectures/Week%202
 <!-- [3s]: -->
 <!-- [4s]: -->
 <!-- [5s]: -->
@@ -190,7 +198,7 @@ Please contact us for any organizational questions or questions related to the c
 [0t]:https://github.com/epfl-nlp/cs-552-modern-nlp/tree/main/Exercises/tutorials.md
 [0e]:https://github.com/epfl-nlp/cs-552-modern-nlp/tree/main/Exercises/Setup
 [1e]:https://github.com/epfl-nlp/cs-552-modern-nlp/tree/main/Exercises/Week%201%20-%20Word%20Embeddings
-<!-- [2e]: -->
+[2e]:https://github.com/epfl-nlp/cs-552-modern-nlp/tree/main/Exercises/Week%202%20-%20N-gram%20%26%20Neural%20Language%20Models
 <!-- [3e]: -->
 <!-- [4e]: -->
 <!-- [5e]: -->
