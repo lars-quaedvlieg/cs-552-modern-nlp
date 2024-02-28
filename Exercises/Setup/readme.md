@@ -17,7 +17,7 @@ If you are not familiar with python environments and the CONDA toolbox, and you 
 
 ### Python libraries
 
-You can check the main python libraries that we will use for the exercise sessions in the `requirements.txt` file which is located [here](). Note that this file will probably be updated in the future as the semester progresses. You can install and use any other library you want unless specified otherwise by the Exercise, Assignement or Project description.
+You can check the main python libraries that we will use for the exercise sessions in the `requirements.txt` file. Note that this file will probably be updated in the future as the semester progresses. You can install and use any other library you want unless specified otherwise by the Exercise, Assignement or Project description.
 
 
 ### PyTorch tutorial
@@ -39,9 +39,9 @@ For this course, we will also be using [PyTorch](https://pytorch.org/) and [Tran
 
 ### Colab tutorial
 
-Colaboratory ("Colab" for short)  is a data analysis and machine learning tool that allows you to combine executable Python code and rich text along with charts, images, HTML, LaTeX and more into a single document stored in Google Drive. It connects to powerful Google Cloud Platform runtimes and enables you to easily share your work and collaborate with others.
+Colaboratory ("Colab" for short) is a data analysis and machine learning tool that allows you to combine executable Python code and rich text along with charts, images, HTML, LaTeX and more into a single document stored in Google Drive. It connects to powerful Google Cloud Platform runtimes and enables you to easily share your work and collaborate with others.
 
-You can familiarize yourself with the platform by checking this [Google Colab Guide](https://hackmd.io/@BrownDeepLearningS23/BkIT3sW6s).
+You can familiarize yourself with the platform by checking out this [Google Colab Guide](https://colab.research.google.com/notebooks/basic_features_overview.ipynb).
 
 
 
