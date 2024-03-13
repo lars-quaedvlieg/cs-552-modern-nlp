@@ -35,9 +35,9 @@ Recording of the lectures will be made available on SwitchTube. We will reuse so
 |             |                      |                                                                                                                             |                                      	    |
 | **Week 2**  |  28 Feb <br />29 Feb   |  LM basics &#124; Neural LMs: Fixed Context Models [[slides][2s]]<br />Neural LMs: RNNs, Backpropagation, Vanishing Gradients; LSTMs [[slides][2s]]    |  Antoine Bosselut                   		|
 |             |                      |                                                                                                                             |                                      	    |
-| **Week 3**  |  6 Mar <br />7 Mar   |  Seq2seq + decoding + attention &#124; Transformers [[slides][3s]] <br />Transformers + Greedy Decoding; GPT |  Antoine Bosselut  		|
+| **Week 3**  |  6 Mar <br />7 Mar   |  Seq2seq + decoding + attention &#124; Transformers [[slides][3s]] <br />Transformers + Greedy Decoding; GPT [[slides][3s]] |  Antoine Bosselut  		|
 |             |                      |                                                                                                                             |                                      	    |
-| **Week 4**  | 13 Mar <br />14 Mar  |  **\[Online only\]** Pretraining: ELMo, BERT, MLM, task generality &#124; Transfer Learning: Introduction <br /> Assignment 1 Q&A   |  Antoine Bosselut  <br />  Simin Fan                 		|
+| **Week 4**  | 13 Mar <br />14 Mar  |  **\[Online only\]** Pretraining: ELMo, BERT, MLM, task generality &#124; Transfer Learning: Introduction [[slides][4s]] <br /> Assignment 1 Q&A   |  Antoine Bosselut  <br />  Simin Fan                 		|
 |             |                      |                                                                                                                             |                                      	    |
 | **Week 5**  | 20 Mar <br />21 Mar  |  Transfer Learning: Dataset Biases  <br />Generation: Task    |  Antoine Bosselut                   		|
 |             |                      |                                                                                                                             |                                      	    |
@@ -74,7 +74,7 @@ Recording of the lectures will be made available on SwitchTube. We will reuse so
 | **Week 3**  |  6 Mar  | Assignment 1 Q&A    | Mete Ismayilzada         |
 | **Week 3**  |  7 Mar  | Language and Sequence-to-sequence models review <br /> Attention + Transformers [[code][3e]]   |  Badr AlKhamissi    |
 |             |         |                                                                                       |                                                                     |
-| **Week 4**  | 13 Mar  |  **\[Online only\]** Pretraining S2S: BART, T5 | Antoine Bosselut   |
+| **Week 4**  | 13 Mar  |  **\[Online only\]** Pretraining S2S: BART, T5 [[slides][4s]] | Antoine Bosselut   |
 | **Week 4**  | 14 Mar  |  Attention + Transformers review <br />Pretraining and Transfer Learning Pt. 1  |  Badr AlKhamissi  <br /> Simin Fan    |
 |             |         |                                                                                       |                                                                     |
 | **Week 5**  | 20 Mar  |  Assignment 2 Q&A        |  Simin Fan              |
@@ -172,17 +172,16 @@ More details on the content of the project and the deliverables of each mileston
 <a name="contact"></a>
 ## Contacts
 
+Please email us at **nlp-cs552-spring2024-ta-team [at] groupes [dot] epfl [dot] ch** for any administrative questions, rather than emailing TAs individually. All course content questions need to be asked via [Ed](https://edstem.org/eu/courses/1159/discussion/).
+
 **Lecturer**: [Antoine Bosselut](https://people.epfl.ch/antoine.bosselut)
 
-**Teaching assistants**: [Badr AlKhamissi](https://people.epfl.ch/badr.alkhamissi), [Deniz Bayazit](https://people.epfl.ch/deniz.bayazit?lang=en), [Beatriz Borges](https://people.epfl.ch/beatriz.borges), [Zeming (Eric) Chen](https://people.epfl.ch/zeming.chen?lang=en), [Simin Fan](https://people.epfl.ch/simin.fan?lang=en), [Negar Foroutan Eghlidi](https://people.epfl.ch/negar.foroutan), [Silin Gao](https://people.epfl.ch/silin.gao?lang=en), [Mete Ismayilzada](https://people.epfl.ch/mahammad.ismayilzada)
-
-Please contact us for any organizational questions or questions related to the course content.
-
+**Teaching assistants**: [Negar Foroutan Eghlidi](https://people.epfl.ch/negar.foroutan), [Badr AlKhamissi](https://people.epfl.ch/badr.alkhamissi), [Deniz Bayazit](https://people.epfl.ch/deniz.bayazit?lang=en), [Beatriz Borges](https://people.epfl.ch/beatriz.borges), [Zeming (Eric) Chen](https://people.epfl.ch/zeming.chen?lang=en), [Simin Fan](https://people.epfl.ch/simin.fan?lang=en), [Silin Gao](https://people.epfl.ch/silin.gao?lang=en), [Mete Ismayilzada](https://people.epfl.ch/mahammad.ismayilzada)
 
 [1s]:https://github.com/epfl-nlp/cs-552-modern-nlp/tree/main/Lectures/Week%201
 [2s]:https://github.com/epfl-nlp/cs-552-modern-nlp/tree/main/Lectures/Week%202
 [3s]:https://github.com/epfl-nlp/cs-552-modern-nlp/tree/main/Lectures/Week%203
-<!-- [4s]: -->
+[4s]:https://github.com/epfl-nlp/cs-552-modern-nlp/tree/main/Lectures/Week%204
 <!-- [5s]: -->
 <!-- [6s]: -->
 <!-- [7s]: -->

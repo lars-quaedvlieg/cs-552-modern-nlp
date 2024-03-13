@@ -1,0 +1,8 @@
+transformers
+datasets
+sentence_transformers
+accelerate
+sklearn
+scipy
+torch
+tqdm
