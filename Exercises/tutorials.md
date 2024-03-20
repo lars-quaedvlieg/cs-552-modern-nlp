@@ -64,16 +64,16 @@ There are 2 ways you can install Git LFS:
 
 
 ### 2. Git LFS Usage
-1. Go to your repository's root and link git lfs:
+1. Go to your repository's root and link Git LFS:
     ```shell
     cd your-repository-path
     git lfs install
     ```
 
-2. Create a `.gitattributes` file by tracking certain files or folders. Make sure not to track everything but only the necessary checkpoints (e.g., the best-performing ones). The following commands will automatically create and append to a `.gitattributes` file:
+2. Create a `.gitattributes` file by tracking certain files or folders. Ensure not to track everything but only the necessary checkpoints (e.g., the best-performing ones). Remember that this is a generic tutorial rather than a specific solution for a specific assignment. For example, the following commands will automatically create and append to a `.gitattributes` file:
     ```shell
-    # an example to track all large files in the "models" folder
-    git lfs track "models/"
+    # an example to track all large files in the "models" folder, `**` tracks the directory content recursively
+    git lfs track "models/**"
     ```
 
 3. Commit the `.gitattributes` file first.
@@ -83,9 +83,9 @@ There are 2 ways you can install Git LFS:
     git push
     ```
 
-4. Then, commit and the push the content of the folders you started tracking with Git LFS, as you would typically do with other small files:
+4. Then, commit and push the content of the folders you started tracking with Git LFS, as you would typically do with other small files. For this part after tracking, we suggest pushing each model individually to GitHub to reduce the upload time:
     ```shell
-    git add "models/"
+    git add "models/" # or instead add "models/specific_model.pt" or "models/specific_model.safetensors"
     git commit -m "Add large files"
     git push
     ```
@@ -94,10 +94,12 @@ You can find more information on [the extension's website](https://git-lfs.com/)
 
 ### 3. Possible Problems
 
-1. To make sure you are commiting the files to Git LFS and not to your github repository directly (which will give you an error and stop the process), do either of the following after the last `git commit`:
+1. To make sure you are committing the files to Git LFS and not to your GitHub repository directly (which will give you an error and stop the process), do either of the following after the last `git commit`:
     - run `git lfs status` and ensure the file(s) in question appear under Git LFS objects to be committed (that they have the LFS value in parenthesis) 
     - run `git lfs ls-files` and ensure the file(s) in question appear in this output.
 
     More on this in [this stackoverflow post](https://stackoverflow.com/questions/54451856/how-can-i-tell-if-a-file-will-be-uploaded-to-git-lfs-correctly).
 
-2. If you run into a problem where `git lfs status` is not listing the tracked files after the commit and before pushing, we found that depending on the system you are using, you may need to track the *complete path* to the file rather than a pattern (`"models/mymodel.pt"` instead of `"*.pt"`).
+2. If you run into a problem where `git lfs status` is not listing the tracked files after the commit and before pushing, we found that depending on the system you are using, you may need to track the *complete relative path from the repo's root to the file* rather than a pattern (*i.e.*, `"models/mymodel.pt"` instead of `"*.pt"`).
+
+3. If you are on Windows, you may need to use forward slashes `\` instead of back `/` when specifying paths.

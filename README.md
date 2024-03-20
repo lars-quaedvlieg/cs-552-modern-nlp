@@ -39,7 +39,7 @@ Recording of the lectures will be made available on SwitchTube. We will reuse so
 |             |                      |                                                                                                                             |                                      	    |
 | **Week 4**  | 13 Mar <br />14 Mar  |  **\[Online only\]** Pretraining: ELMo, BERT, MLM, task generality &#124; Transfer Learning: Introduction [[slides][4s]] <br /> Assignment 1 Q&A   |  Antoine Bosselut  <br />  Simin Fan                 		|
 |             |                      |                                                                                                                             |                                      	    |
-| **Week 5**  | 20 Mar <br />21 Mar  |  Transfer Learning: Dataset Biases  <br />Generation: Task    |  Antoine Bosselut                   		|
+| **Week 5**  | 20 Mar <br />21 Mar  |  Transfer Learning: Dataset Biases [[slides][5s]] <br />Generation: Task    |  Antoine Bosselut                   		|
 |             |                      |                                                                                                                             |                                      	    |
 | **Week 6**  | 27 Mar <br />28 Mar  |  Generation: Decoding and Training  <br />Generation: Evaluation  |  Antoine Bosselut                   		|
 |             |                      |                                                                                                                             |                                      	    |
@@ -75,13 +75,13 @@ Recording of the lectures will be made available on SwitchTube. We will reuse so
 | **Week 3**  |  7 Mar  | Language and Sequence-to-sequence models review <br /> Attention + Transformers [[code][3e]]   |  Badr AlKhamissi    |
 |             |         |                                                                                       |                                                                     |
 | **Week 4**  | 13 Mar  |  **\[Online only\]** Pretraining S2S: BART, T5 [[slides][4s]] | Antoine Bosselut   |
-| **Week 4**  | 14 Mar  |  Attention + Transformers review <br />Pretraining and Transfer Learning Pt. 1  |  Badr AlKhamissi  <br /> Simin Fan    |
+| **Week 4**  | 14 Mar  |  Attention + Transformers review <br />Pretraining and Transfer Learning Pt. 1 [[code][4e]] |  Badr AlKhamissi  <br /> Simin Fan    |
 |             |         |                                                                                       |                                                                     |
-| **Week 5**  | 20 Mar  |  Assignment 2 Q&A        |  Simin Fan              |
+| **Week 5**  | 20 Mar  |      -     |       -          |
 | **Week 5**  | 21 Mar  |  Pretraining and Transfer Learning Pt. 1 review <br />Transfer Learning Pt. 2        |  Simin Fan              |
 |             |         |                                                                                       |                                                                     |
-| **Week 6**  | 28 Mar  |  Assignment 2 Q&A    |  Simin Fan    |
-| **Week 6**  | 28 Mar  |  Transfer Learning Pt. 2 review <br />Text Generation    |  Simin Fan <br />Deniz Bayazit           |
+| **Week 6**  | 27 Mar  |  Assignment 2 Q&A    |  Simin Fan, Silin Gao    |
+| **Week 6**  | 28 Mar  |  Transfer Learning Pt. 2 review <br />Text Generation - Assignment 2 Q&A    |  Simin Fan <br />Deniz Bayazit, Silin Gao          |
 |             |         |                                                                                       |                                                                     |
 |  |   |  ***EASTER BREAK***                                                                   |                                                                     |  
 |             |         |                                                                                       |                                                                     |
@@ -123,7 +123,7 @@ Assignment and project release annoucements will be on Ed. Your work will be sub
 All large files such as model checkpoints need to be pushed to the repository with [Git LFS](https://git-lfs.com/). Large files can take time to upload, therefore please avoid last-minute uploads that can create potential submission delays. We also propose to use [Colab](https://colab.research.google.com/) as a free GPU resource. You can find tutorials on all of these resources [here][0t].
 
 ### Late Days Policy
-All assignments and milestones are due at 23:59 on their due date. As we understand that circumstances can make it challenging to abide by these due dates, you will receive 6 late days over the course of the semester to be allocated to the assignments and project milestones as you see fit. No further extensions will be granted. The only exception to this rule is for the final report, code, and data. No extensions will be granted beyond June 14th.
+All assignments and milestones are due at 23:59 on their due date. As we understand that circumstances can make it challenging to abide by these due dates, you will receive 6 late days over the course of the semester to be allocated to the assignments and project milestones as you see fit. No further extensions will be granted. The only exception to this rule is for the final report, code, and data. No extensions will be granted beyond June 14th. We will automatically calculate the late days according to your last commit; hence you don’t have to inform us. For group projects, when everyone has some late days, we will deduct individually from everyone. In the scenario where one person has no more late days, that student will lose points for the late submission. The other students in the team will continue to use their late days (i.e. no points will be deducted from them).
 
 ### Assignments (40%):
 There will be three assignments throughout the course. They will be released and due according to the following schedule:
@@ -182,7 +182,7 @@ Please email us at **nlp-cs552-spring2024-ta-team [at] groupes [dot] epfl [dot] 
 [2s]:https://github.com/epfl-nlp/cs-552-modern-nlp/tree/main/Lectures/Week%202
 [3s]:https://github.com/epfl-nlp/cs-552-modern-nlp/tree/main/Lectures/Week%203
 [4s]:https://github.com/epfl-nlp/cs-552-modern-nlp/tree/main/Lectures/Week%204
-<!-- [5s]: -->
+[5s]:https://github.com/epfl-nlp/cs-552-modern-nlp/tree/main/Lectures/Week%205
 <!-- [6s]: -->
 <!-- [7s]: -->
 <!-- [8s]: -->
@@ -199,7 +199,7 @@ Please email us at **nlp-cs552-spring2024-ta-team [at] groupes [dot] epfl [dot] 
 [1e]:https://github.com/epfl-nlp/cs-552-modern-nlp/tree/main/Exercises/Week%201%20-%20Word%20Embeddings
 [2e]:https://github.com/epfl-nlp/cs-552-modern-nlp/tree/main/Exercises/Week%202%20-%20N-gram%20%26%20Neural%20Language%20Models
 [3e]:https://github.com/epfl-nlp/cs-552-modern-nlp/tree/main/Exercises/Week%203%20-%20RNNs
-<!-- [4e]: -->
+[4e]:https://github.com/epfl-nlp/cs-552-modern-nlp/tree/main/Exercises/Week%204%20-%20Pretraining%20%26%20Finetuning
 <!-- [5e]: -->
 <!-- [6e]: -->
 <!-- [7e]: -->
