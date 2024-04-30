@@ -166,8 +166,8 @@ Recording of the lectures will be made available on SwitchTube. We will reuse so
     <tr>
         <td><strong>Week 9</strong></td>
         <td>24 Apr <br />25 Apr</td>
-        <td>Ethics in NLP: Bias / Fairness and Toxicity, Privacy, Disinformation <br /><strong>No class</strong> (Project work; A1 Grade Review Session)</td>
-        <td>Suggested reading: -</td>
+        <td>Ethics in NLP: Bias / Fairness and Toxicity, Privacy, Disinformation  <a href="https://github.com/epfl-nlp/cs-552-modern-nlp/tree/main/Lectures/Week%209">[slides]</a><br /><strong>No class</strong> (Project work; A1 Grade Review Session)</td>
+        <td>Suggested reading: <ul><li><a href="https://faculty.washington.edu/ebender/2017_575/#phil">Ethics in NLP</a></li><li><a href="https://www.ohchr.org/sites/default/files/documents/issues/business/b-tech/overview-human-rights-and-responsible-AI-company-practice.pdf">United Nations recommendations/overview on responsible AI practice</a></li></ul></td>
         <td>Anna Sotnikova</td>
     </tr>
     <tr>
